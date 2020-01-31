@@ -11,7 +11,7 @@ int main ()
   stack <char> words;
   stack <char> ordered_words;
 
-  fin.open("proj3test.txt"); //open the file
+  fin.open("text_file.txt"); //open the file
 
   if (fin.fail())
     {
